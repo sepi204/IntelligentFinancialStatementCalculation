@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntelligentFinancialStatementCalculation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c5e89921af49a3702ac5753a6359e584072a4f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68cfd93567b92491c385a09df441adbb200480cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntelligentFinancialStatementCalculation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntelligentFinancialStatementCalculation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

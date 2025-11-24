@@ -24,6 +24,12 @@ builder.Services.Configure<FormOptions>(options =>
 builder.WebHost.ConfigureKestrel(options =>
 {
     options.Limits.MaxRequestBodySize = long.MaxValue;
+    // تنظیم پورت 8080 برای Liara (اگر متغیر محیطی PORT تنظیم نشده باشد)
+    var port = Environment.GetEnvironmentVariable("PORT");
+    if (string.IsNullOrEmpty(port) || !int.TryParse(port, out var portNumber))
+    {
+        options.ListenAnyIP(8080);
+    }
 });
 
 var app = builder.Build();
