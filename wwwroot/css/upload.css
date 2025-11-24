@@ -1,0 +1,148 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: clamp(2rem, 4vw, 4rem);
+}
+
+.upload-wrapper {
+    width: min(560px, 100%);
+}
+
+.upload-card {
+    background: #ffffff;
+    border-radius: 28px;
+    padding: clamp(2rem, 4vw, 3rem);
+    box-shadow: 0 20px 60px rgba(12, 118, 93, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.upload-card h1 {
+    font-size: 1.8rem;
+    color: #0f533f;
+    margin-bottom: 0.2rem;
+}
+
+.upload-card p {
+    color: #5c6e67;
+    margin: 0;
+}
+
+.upload-card .eyebrow {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    color: #5fbf97;
+    margin-bottom: 0.3rem;
+}
+
+.drop-zone {
+    border: 1.5px dashed rgba(7, 122, 96, 0.4);
+    border-radius: 24px;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    background: linear-gradient(180deg, #f7fffb 0%, #eff8f4 100%);
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.drop-zone span {
+    display: block;
+    color: #2d6d55;
+    font-weight: 600;
+}
+
+.drop-zone.dragover {
+    border-color: #0e9d78;
+    transform: translateY(-4px);
+}
+
+.drop-zone input {
+    display: none;
+}
+
+.drop-zone button {
+    margin-top: 1.2rem;
+    border: none;
+    background: rgba(15, 165, 118, 0.12);
+    color: #0f533f;
+    padding: 0.65rem 1.4rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.progress-container {
+    height: 6px;
+    border-radius: 999px;
+    background: rgba(15, 83, 63, 0.08);
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #07a560, #24d48f);
+    transition: width 0.2s ease;
+}
+
+#progress-text {
+    font-weight: 600;
+    color: #0f533f;
+    margin: 0;
+}
+
+.actions button {
+    border: none;
+    border-radius: 16px;
+    padding: 0.95rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(130deg, #0c7c59, #17c184);
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.actions button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.alert {
+    border-radius: 16px;
+    padding: 0.85rem 1rem;
+    font-weight: 600;
+}
+
+.alert.success {
+    background: rgba(23, 193, 132, 0.12);
+    color: #066449;
+}
+
+.alert.error {
+    background: rgba(214, 59, 59, 0.12);
+    color: #802525;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.download-link {
+    align-self: center;
+    background: transparent;
+    color: #0f533f;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 12px;
+    border: 1px solid rgba(15, 83, 63, 0.2);
+    padding: 0.6rem 1.4rem;
+}
+
+@media (max-width: 620px) {
+    .upload-card {
+        border-radius: 22px;
+    }
+}
+

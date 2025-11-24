@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - سامانه محاسبه هوشمند صورت مالی</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header class="app-header">
+        <div class="brand">
+            <span class="brand-badge"></span>
+            <div>
+                <strong>سامانه محاسبه هوشمند صورت مالی</strong>
+                <p>آپلود، پردازش و دانلود گزارش‌ها</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

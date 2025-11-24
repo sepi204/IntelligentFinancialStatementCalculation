@@ -1,15 +1,35 @@
+using IntelligentFinancialStatementCalculation.Services;
+using IntelligentFinancialStatementCalculation.Services.Generators;
+using Microsoft.AspNetCore.Http.Features;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// افزودن Razor Pages
+builder.Services.AddRazorPages();
+
+// ثبت سرویس‌های گزارش
+builder.Services.AddScoped<IReportGenerator, SampleSummaryReport>();
+builder.Services.AddScoped<IReportGenerator, SampleDetailReport>();
+builder.Services.AddScoped<ReportCoordinator>();
+
+// حذف محدودیت‌های پیش‌فرض آپلود
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = long.MaxValue;
+    options.ValueLengthLimit = int.MaxValue;
+    options.MemoryBufferThreshold = int.MaxValue;
+});
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Limits.MaxRequestBodySize = long.MaxValue;
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Upload");
     app.UseHsts();
 }
 
@@ -18,10 +38,6 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapRazorPages();
 
 app.Run();

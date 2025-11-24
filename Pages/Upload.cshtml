@@ -1,0 +1,42 @@
+@page "/"
+@model IntelligentFinancialStatementCalculation.Pages.UploadModel
+@{
+    ViewData["Title"] = "آپلود گزارش مالی";
+}
+
+<section class="upload-wrapper">
+    <div class="upload-card">
+        <div>
+            <p class="eyebrow">کاملاً آنلاین و امن</p>
+            <h1>آپلود و پردازش هوشمند اکسل</h1>
+            <p>فایل اکسل خود را بکشید، رها کنید و خروجی نهایی را بدون معطلی دریافت کنید.</p>
+        </div>
+
+        <div id="drop-zone" class="drop-zone">
+            <span>فایل را اینجا رها کنید</span>
+            <input id="file-input" type="file" accept=".xlsx,.xls" />
+            <button type="button" id="browse-btn">انتخاب فایل</button>
+        </div>
+
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <p id="progress-text">در انتظار آپلود...</p>
+
+        <div class="actions">
+            <button type="button" id="upload-btn">شروع پردازش</button>
+        </div>
+
+        <div id="alert" class="alert hidden"></div>
+        <a id="download-link" class="download-link hidden">دریافت فایل خروجی</a>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/upload.js" asp-append-version="true"></script>
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/upload.css" asp-append-version="true" />
+}
+
