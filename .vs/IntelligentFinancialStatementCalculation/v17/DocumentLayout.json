@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\services\\generators\\samplesummaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:services\\generators\\samplesummaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\services\\generators\\financialpositionreportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:services\\generators\\financialpositionreportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\services\\generators\\sampledetailreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:services\\generators\\sampledetailreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\services\\generators\\samplesummaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:services\\generators\\samplesummaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\services\\reportcoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:services\\reportcoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\pages\\upload.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:pages\\upload.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\models\\workbookinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:models\\workbookinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|c:\\users\\sepeh\\desktop\\intelligentfinancialstatementcalculation\\pages\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46BA6D61-2928-492F-904A-4898B89C7565}|IntelligentFinancialStatementCalculation.csproj|solutionrelative:pages\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -44,7 +40,7 @@
               "RelativeDocumentMoniker": "Services\\Generators\\SampleDetailReport.cs",
               "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\Generators\\SampleDetailReport.cs",
               "RelativeToolTip": "Services\\Generators\\SampleDetailReport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T14:34:17.74Z",
               "IsPinned": true,
@@ -52,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SampleSummaryReport.cs",
               "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\Generators\\SampleSummaryReport.cs",
               "RelativeDocumentMoniker": "Services\\Generators\\SampleSummaryReport.cs",
               "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\Generators\\SampleSummaryReport.cs",
               "RelativeToolTip": "Services\\Generators\\SampleSummaryReport.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T14:43:46.515Z",
               "IsPinned": true,
@@ -66,56 +62,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Upload.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Pages\\Upload.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Upload.cshtml.cs",
-              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Pages\\Upload.cshtml.cs",
-              "RelativeToolTip": "Pages\\Upload.cshtml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FinancialPositionReportGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\Generators\\FinancialPositionReportGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Generators\\FinancialPositionReportGenerator.cs",
+              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\Generators\\FinancialPositionReportGenerator.cs",
+              "RelativeToolTip": "Services\\Generators\\FinancialPositionReportGenerator.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwJ8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:46:20.804Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportCoordinator.cs",
-              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\ReportCoordinator.cs",
-              "RelativeDocumentMoniker": "Services\\ReportCoordinator.cs",
-              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\ReportCoordinator.cs",
-              "RelativeToolTip": "Services\\ReportCoordinator.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswBsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:47:53.376Z",
+              "WhenOpened": "2025-11-24T17:04:45.063Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WorkbookInput.cs",
-              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Models\\WorkbookInput.cs",
-              "RelativeDocumentMoniker": "Models\\WorkbookInput.cs",
-              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Models\\WorkbookInput.cs",
-              "RelativeToolTip": "Models\\WorkbookInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:44:04.748Z",
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Pages\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Pages\\Upload.cshtml",
+              "RelativeToolTip": "Pages\\Upload.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T16:09:15.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T14:27:45.901Z",
+              "DocumentIndex": 3,
+              "Title": "ReportCoordinator.cs",
+              "DocumentMoniker": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\ReportCoordinator.cs",
+              "RelativeDocumentMoniker": "Services\\ReportCoordinator.cs",
+              "ToolTip": "C:\\Users\\sepeh\\Desktop\\IntelligentFinancialStatementCalculation\\Services\\ReportCoordinator.cs",
+              "RelativeToolTip": "Services\\ReportCoordinator.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T14:56:27.058Z",
               "EditorCaption": ""
             }
           ]

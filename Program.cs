@@ -10,6 +10,7 @@ builder.Services.AddRazorPages();
 // ثبت سرویس‌های گزارش
 builder.Services.AddScoped<IReportGenerator, SampleSummaryReport>();
 builder.Services.AddScoped<IReportGenerator, SampleDetailReport>();
+builder.Services.AddScoped<IReportGenerator, FinancialPositionReportGenerator>();
 builder.Services.AddScoped<ReportCoordinator>();
 
 // حذف محدودیت‌های پیش‌فرض آپلود

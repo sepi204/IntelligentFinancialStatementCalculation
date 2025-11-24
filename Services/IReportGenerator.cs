@@ -9,3 +9,7 @@ public interface IReportGenerator
     Task<XLWorkbook> GenerateAsync(WorkbookInput input, CancellationToken cancellationToken);
 }
 
+
+
+
+
